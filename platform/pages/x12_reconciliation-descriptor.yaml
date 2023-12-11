@@ -1,0 +1,22 @@
+code: x12_reconciliation
+parentCode: standard_services
+titles:
+  en: X12 Reconciliation
+  it: X12 Reconciliation
+pageModel: appt_app_page
+ownerGroup: administrators
+joinGroups: []
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets:
+  - code: appt-ui-shell
+    config: null
+    pos: 0
+  - code: x12-reconciliation-0d68f1c8
+    config: null
+    pos: 1
+  - code: footer
+    config: null
+    pos: 2

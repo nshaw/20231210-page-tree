@@ -1,0 +1,14 @@
+code: request
+parentCode: homepage
+titles:
+  en: Request
+  it: Request
+pageModel: appt_app_page
+ownerGroup: administrators
+joinGroups:
+  - business_users
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets: []

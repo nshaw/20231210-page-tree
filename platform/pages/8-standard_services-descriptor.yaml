@@ -1,0 +1,13 @@
+code: standard_services
+parentCode: configure
+titles:
+  en: Standard Services
+  it: Standard Services
+pageModel: appt_app_page
+ownerGroup: administrators
+joinGroups: []
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets: []

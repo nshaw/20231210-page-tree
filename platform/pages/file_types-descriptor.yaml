@@ -1,0 +1,24 @@
+code: file_types
+parentCode: configure
+titles:
+  en: File Types
+  it: File Types
+pageModel: appt_app_page
+ownerGroup: administrators
+joinGroups:
+  - application_users
+  - mgft_users
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets:
+  - code: appt-ui-shell
+    config: null
+    pos: 0
+  - code: filetype-business-service-fe-0d68f1c8
+    config: null
+    pos: 1
+  - code: footer
+    config: null
+    pos: 2

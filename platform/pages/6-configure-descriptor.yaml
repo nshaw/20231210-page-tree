@@ -1,0 +1,16 @@
+code: configure
+parentCode: homepage
+titles:
+  en: Configure
+  it: Configure
+pageModel: appt_app_page
+ownerGroup: administrators
+joinGroups:
+  - application_users
+  - business_users
+  - mgft_users
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets: []

@@ -1,0 +1,14 @@
+code: provision
+parentCode: homepage
+titles:
+  en: Provision
+  it: Provision
+pageModel: appt_app_page
+ownerGroup: administrators
+joinGroups:
+  - application_users
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets: []

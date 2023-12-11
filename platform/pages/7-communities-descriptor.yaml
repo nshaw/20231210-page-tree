@@ -1,0 +1,13 @@
+code: communities
+parentCode: configure
+titles:
+  en: Communities
+  it: Communities
+pageModel: appt_app_page
+ownerGroup: administrators
+joinGroups: []
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets: []

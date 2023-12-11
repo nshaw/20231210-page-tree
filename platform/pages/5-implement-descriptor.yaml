@@ -1,0 +1,14 @@
+code: implement
+parentCode: homepage
+titles:
+  en: Implement
+  it: Implement
+pageModel: appt_app_page
+ownerGroup: administrators
+joinGroups:
+  - mgft_users
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets: []

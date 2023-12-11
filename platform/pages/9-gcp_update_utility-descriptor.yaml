@@ -1,0 +1,23 @@
+code: gcp_update_utility
+parentCode: homepage
+titles:
+  en: GCP Update Utility
+  it: GCP Update Utility
+pageModel: appt_app_page
+ownerGroup: administrators
+joinGroups: 
+  - delrisk_users
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets:
+  - code: appt-ui-shell
+    config: null
+    pos: 0
+  - code: gcpmu-mfe-c11e8ef3
+    config: null
+    pos: 1
+  - code: footer
+    config: null
+    pos: 2

@@ -1,0 +1,128 @@
+code: appt_app_page
+description: APPT Application Page
+configuration:
+  frames:
+    - pos: 0
+      description: APPT Header
+      mainFrame: false
+      defaultWidget:
+        code: appt-ui-shell
+        properties: null
+      sketch:
+        x1: 0
+        y1: 0
+        x2: 11
+        y2: 0
+    - pos: 1
+      description: Main Application
+      mainFrame: true
+      defaultWidget:
+        code: welcome_page
+        properties: null
+      sketch:
+        x1: 0
+        y1: 1
+        x2: 11
+        y2: 4
+    - pos: 2
+      description: Footer
+      mainFrame: false
+      defaultWidget:
+        code: footer
+        properties: null
+      sketch:
+        x1: 0
+        y1: 5
+        x2: 11
+        y2: 5
+    - pos: 3
+      description: Hidden MFE One
+      mainFrame: false
+      sketch:
+        x1: 0
+        y1: 6
+        x2: 0
+        y2: 6
+    - pos: 4
+      description: Hidden MFE Two
+      mainFrame: false
+      sketch:
+        x1: 1
+        y1: 6
+        x2: 1
+        y2: 6
+    - pos: 5
+      description: Hidden MFE Three
+      mainFrame: false
+      sketch:
+        x1: 2
+        y1: 6
+        x2: 2
+        y2: 6
+    - pos: 6
+      description: Hidden MFE Four
+      mainFrame: false
+      sketch:
+        x1: 3
+        y1: 6
+        x2: 3
+        y2: 6
+template: |
+  <#assign wp=JspTaglibs["/aps-core"]>
+  <@wp.info key="systemParam" paramName="applicationBaseURL" var="appUrl" />
+
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      <@wp.currentPage param="title" />
+    </title>
+    <meta name="viewport" content="width=device-width,  user-scalable=no" />
+    <link rel="icon" href="${appUrl}favicon.png" type="image/png" />
+    <!-- Custom OOTB page template styles -->
+    <link rel="stylesheet" href="<@wp.resourceURL />static/css/ootb/page-templates/index.css" rel="stylesheet">
+    <!-- Carbon Design System -->
+    <@wp.fragment code="entando_ootb_carbon_include" escapeXml=false />
+    <@wp.fragment code="keycloak_auth" escapeXml=false />
+
+    <@wp.outputHeadInfo type="CSS">
+      <link rel="stylesheet" type="text/css" href="<@wp.cssURL /><@wp.printHeadInfo />" />
+    </@wp.outputHeadInfo>
+    
+    <!-- Custom APPT page template styles -->
+    <link rel="stylesheet" href="<@wp.resourceURL />bundles/appt-platform-bundle-5ba9f500/resources/appt-widgets/static/css/index.css" rel="stylesheet">
+    <style>
+      @font-face {
+        font-family: 'IBM Plex Sans';
+        src: url("<@wp.resourceURL />bundles/appt-platform-bundle-5ba9f500/resources/appt-widgets/static/fonts/IBMPlexSans-Regular.woff2");
+      }
+      
+      #hidden-mfes {
+        display: none
+      }
+    </style>
+  </head>
+
+  <body>
+    <@wp.show frame=0 />
+    <div class="bx--grid--full-width" id="appt-main">
+      <div class="bx--row bx--no-gutter">
+        <div class="bx--col-sm-1 bx--col-md-1 bx--no-gutter"  id="side-nav-col" ></div>
+        <div class="bx--col-sm-3 bx--col-md-7 bx--no-gutter">
+          <@wp.show frame=1 />
+        </div>
+      </div>
+    </div>
+    <footer class="Homepage__footer">
+      <@wp.show frame=2 />
+    </footer>
+    <div id="hidden-mfes">
+      <@wp.show frame=3 />
+      <@wp.show frame=4 />
+      <@wp.show frame=5 />
+      <@wp.show frame=6 />
+    </div>
+  </body>
+
+  </html>

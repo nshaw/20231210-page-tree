@@ -1,0 +1,9 @@
+{
+    "microservices": [],
+    "microfrontends": [],
+    "svc": [],
+    "name": "test-platform-bundle",
+    "version": "0.0.1",
+    "description": "Test Platform Code Bundle",
+    "type": "bundle"
+}
