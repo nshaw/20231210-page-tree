@@ -3,7 +3,7 @@ parentCode: homepage
 titles:
   en: Home
   it: Home
-pageModel: appt_app_page
+pageModel: home
 ownerGroup: free
 joinGroups: []
 displayedInMenu: true
@@ -11,12 +11,12 @@ seo: false
 charset: utf8
 status: published
 widgets:
-  - code: appt-ui-shell
-    config: null
-    pos: 0
-  - code: welcome_page
-    config: null
-    pos: 1
-  - code: footer
-    config: null
-    pos: 2
+  # - code: appt-ui-shell
+  #   config: null
+  #   pos: 0
+  # - code: welcome_page
+  #   config: null
+  #   pos: 1
+  # - code: footer
+  #   config: null
+  #   pos: 2

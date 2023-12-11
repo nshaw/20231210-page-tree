@@ -1,12 +1,12 @@
-code: implement
+code: request
 parentCode: homepage
 titles:
-  en: Implement
-  it: Implement
-pageModel: appt_app_page
+  en: Request
+  it: Request
+pageModel: 1-2-column
 ownerGroup: administrators
-joinGroups:
-  - mgft_users
+# joinGroups:
+#   - business_users
 displayedInMenu: true
 seo: false
 charset: utf-8

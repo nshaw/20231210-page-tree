@@ -1,14 +1,11 @@
-code: agreements
-parentCode: homepage
+code: external
+parentCode: communities
 titles:
-  en: Agreements
-  it: Agreements
+  en: External
+  it: External
 pageModel: 1-2-column
 ownerGroup: administrators
-# joinGroups:
-  # - application_users
-  # - business_users
-  # - mgft_users
+joinGroups: []
 displayedInMenu: true
 seo: false
 charset: utf-8
@@ -17,7 +14,7 @@ status: published
 #   - code: appt-ui-shell
 #     config: null
 #     pos: 0
-#   - code: business-agreements-0d68f1c8
+#   - code: communities-mfe-0d68f1c8
 #     config: null
 #     pos: 1
 #   - code: footer

@@ -1,14 +1,13 @@
-code: agreements
-parentCode: homepage
+code: business_agreements
+parentCode: configure
 titles:
-  en: Agreements
-  it: Agreements
+  en: Business Agreements
+  it: Business Agreements
 pageModel: 1-2-column
 ownerGroup: administrators
 # joinGroups:
-  # - application_users
-  # - business_users
-  # - mgft_users
+#   - application_users
+#   - business_users
 displayedInMenu: true
 seo: false
 charset: utf-8
@@ -17,7 +16,7 @@ status: published
 #   - code: appt-ui-shell
 #     config: null
 #     pos: 0
-#   - code: business-agreements-0d68f1c8
+#   - code: business-agreements-manager-0d68f1c8
 #     config: null
 #     pos: 1
 #   - code: footer

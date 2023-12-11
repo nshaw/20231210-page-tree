@@ -1,23 +1,21 @@
-code: agreements
-parentCode: homepage
+code: notifications
+parentCode: configure
 titles:
-  en: Agreements
-  it: Agreements
+  en: Notifications
+  it: Notifications
 pageModel: 1-2-column
 ownerGroup: administrators
 # joinGroups:
-  # - application_users
-  # - business_users
-  # - mgft_users
+#   - mgft_users
 displayedInMenu: true
 seo: false
 charset: utf-8
-status: published
+status: draft
 # widgets:
 #   - code: appt-ui-shell
 #     config: null
 #     pos: 0
-#   - code: business-agreements-0d68f1c8
+#   - code: welcome_page
 #     config: null
 #     pos: 1
 #   - code: footer

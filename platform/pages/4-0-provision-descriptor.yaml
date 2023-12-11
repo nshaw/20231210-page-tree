@@ -3,10 +3,10 @@ parentCode: homepage
 titles:
   en: Provision
   it: Provision
-pageModel: appt_app_page
+pageModel: 1-2-column
 ownerGroup: administrators
-joinGroups:
-  - application_users
+# joinGroups:
+#   - application_users
 displayedInMenu: true
 seo: false
 charset: utf-8

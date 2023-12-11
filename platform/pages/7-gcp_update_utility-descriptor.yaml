@@ -1,14 +1,12 @@
-code: agreements
+code: gcp_update_utility
 parentCode: homepage
 titles:
-  en: Agreements
-  it: Agreements
+  en: GCP Update Utility
+  it: GCP Update Utility
 pageModel: 1-2-column
 ownerGroup: administrators
-# joinGroups:
-  # - application_users
-  # - business_users
-  # - mgft_users
+# joinGroups: 
+#   - delrisk_users
 displayedInMenu: true
 seo: false
 charset: utf-8
@@ -17,7 +15,7 @@ status: published
 #   - code: appt-ui-shell
 #     config: null
 #     pos: 0
-#   - code: business-agreements-0d68f1c8
+#   - code: gcpmu-mfe-c11e8ef3
 #     config: null
 #     pos: 1
 #   - code: footer

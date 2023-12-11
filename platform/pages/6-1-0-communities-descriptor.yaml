@@ -1,9 +1,9 @@
-code: standard_services
+code: communities
 parentCode: configure
 titles:
-  en: Standard Services
-  it: Standard Services
-pageModel: appt_app_page
+  en: Communities
+  it: Communities
+pageModel: 1-2-column
 ownerGroup: administrators
 joinGroups: []
 displayedInMenu: true

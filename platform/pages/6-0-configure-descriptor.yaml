@@ -3,12 +3,12 @@ parentCode: homepage
 titles:
   en: Configure
   it: Configure
-pageModel: appt_app_page
+pageModel: 1-2-column
 ownerGroup: administrators
-joinGroups:
-  - application_users
-  - business_users
-  - mgft_users
+# joinGroups:
+#   - application_users
+#   - business_users
+#   - mgft_users
 displayedInMenu: true
 seo: false
 charset: utf-8
